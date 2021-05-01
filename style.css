@@ -1,6 +1,11 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+
+}
+
+html{
+  background-color: #d3f3f1;
 }
 
 #head > h1 {
@@ -10,12 +15,26 @@ html, body {
     font-size: 40px; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.con{
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  /*margin: 30px;*/
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  align-content: center;
+     background: hsla(298, 68%, 90%, 1);
 
-.container{
-   padding: :40px;
-   overflow: hidden;
-   margin-left: 150px;
-   align-content: center;
+background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D5F7", endColorstr="#FBE9D7", GradientType=1 );
+
 }
 
 .col-md-3, .col-md-4{
@@ -38,28 +57,137 @@ html, body {
         
 #verticle-line {
     width: 2px;
-    height: 300px;
+    height: 260px;
+    margin-right: : 20px;
     background: rgb(8, 101, 240);
+  }
+
+  #verticle-line .text{
+    margin: 20px;
   }
 
   #end{
       margin-top: 0px;
   }
 
-.end{
-    /*margin-left:10px;*/
-} 
 
-h1{
+.text h1{
    color:  rgb(6, 76, 180); 
    font-weight: bold;
 }
 
-.end > p{
+.text > p{
     color: black;
     font-size: 18px;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  #head{
+    margin-left: 0px !important;
+  }
+
+  #head h1{
+    text-align: center;
+    margin-top: 60px;  
+    margin-left: 0px; 
+    font-size: 30px;  
+
+  }
+  .con{
+    display: grid;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*flex-direction: column; */
+  }
+
+  .col-md-3 > p > a{
+    font-size: 16px;
+  }  
+
+  .col-md-4 > p > a{
+      font-size: 16px;
+  }    
+
+  .text > p{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .text h1{
+    font-size: 19px;
+  }
+
+  #verticle-line {
+    width: 2px;
+    height: 210px;
+    margin-bottom: 20px;
+  }
+
+  #head .logo{
+    margin: 0px !important;
+    float: center !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: lightblue;
+  }
+
+    #head{
+    margin-left: 0px !important;
+  }
+
+  #head h1{
+    text-align: center;
+    margin-top: 60px;  
+    margin-left: 0px; 
+    font-size: 30px;  
+
+  }
+  .con{
+    display: grid;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*flex-direction: column; */
+  }
+
+  .col-md-3 > p > a{
+    font-size: 18px;
+  }  
+
+  .col-md-4 > p > a{
+      font-size: 18px;
+  }    
+
+  .text > p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .text h1{
+    font-size: 20px;
+  }
+
+  #verticle-line {
+    width: 2px;
+    height: 210px;
+    margin-bottom: 20px;
+  }
+
+  #head .logo{
+    margin: 0px !important;
+    float: center !important;
+  }
+}
+
 
 
     
