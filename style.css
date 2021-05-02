@@ -54,7 +54,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D5F7", en
         
 #verticle-line {
     width: 2px;
-    height: 230px;
+    height: 250px;
     margin-right: : 20px;
     background: rgb(8, 101, 240);
   }
@@ -121,7 +121,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D5F7", en
 
   #verticle-line {
     width: 2px;
-    height: 240px;
+    height: 250px;
     margin-bottom: 20px;
   }
 
@@ -172,7 +172,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D5F7", en
 
   #verticle-line {
     width: 2px;
-    height: 240px;
+    height: 250px;
     margin-bottom: 20px;
   }
 
