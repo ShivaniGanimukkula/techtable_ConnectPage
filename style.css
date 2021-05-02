@@ -68,10 +68,10 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D5F7", en
   }
 
 
- #verticle-line .text h2{
+ #verticle-line .text h4{
    color:  rgb(6, 76, 180); 
    font-weight: bold;
-   /*font-size: 23px ;*/
+   /*font-size: 23px !important;*/
 }
 
  #verticle-line .text > p{
